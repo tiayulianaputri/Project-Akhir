@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".materidua">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kolomsatu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materi Pembelajaran"
+            android:fontFamily="@font/fontempat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/backbutton2"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Pengertian Sel Hewan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/kolom1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. fungsi dan Struktur Sel Hewan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
+            android:id="@+id/kolom2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Contoh soal-soal latihan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1450dp"
+            android:id="@+id/kolom3"/>
+
+
+
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sel hewan adalah suatu bagian organel terkecil dengan selaput tipis yang dibagian dalamnya terdepan larutan koloid mengandung senyawa kimia."
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginTop="170dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:text="1. Membran sel Berfungsi sebagai menjaga integritas sel, mengatur aliran zat-zat masuk dan keluar dari sel, serta berperandalam komunikasi seluler."
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:textSize="20dp"
+            android:layout_marginTop="400dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Sitoplasma Berfungsi sebagai medium seluler dimana reaksi kimia seluler terjadi. Berisi organel-organel dan berperan dalam mendukung struktur sel."
+            android:layout_marginTop="500dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Inti sel (Nukleus) Mengandung materi genetik (DNA) dan mengatur aktivitas sel, termasuk sintesis untuk metabolisme, dan reproduksi sel."
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:text="4. Mitokondria Berfungsi menghasilkan energi (ATP) melalui proses respirasi seluler, menjadi tempat utama untuk metabolisme oksidatif."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Retikulum endoplasma Terbagi menjadi retikulum endoplasma kasar dan halus. Retikulum endoplasma kasar berperan dalam sintesis protein, sementara retikulum endoplasma halus berkontribusi dalam sintesis lipid dan detoksifilasi."
+            android:layout_marginTop="800dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Ribosom Berfungsi sebagai tempat sintesis protein, membaca informasi genetik dari mRNA dan menghasilkan rantai polipeptida."
+            android:layout_marginTop="900dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Aparatus golgi Tempat dimana memproses, mengemas, dan mengirimkan protein serta lipid ke lokasi yang tepat didalam atau diluar sel."
+            android:layout_marginTop="1000dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Lisosom Mengandung enzim pencernaan yang memecah molekul makanan atau material seluler yang tidakdiperlukan, serta berperan dalam daur ulang material seluler."
+            android:layout_marginTop="1100dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Sitoskeleton Memberikan struktur, bentuk, dan dukungan mekanis pada sel, serta berperan dalam proses gerak seluler."
+            android:layout_marginTop="1200dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.  Vesikel Berfungsi memindahkan zat-zat didalam sel, seperti protein yang disintesis di ribosom, dari satu bagian sel ke bagian lainnya."
+            android:layout_marginTop="1300dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Apa yang dimaksud dengan membran sel, dan apa fungsi utamanya dalam sel hewan?"
+            android:layout_marginTop="1520dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Sebutkan dan jelaskan fungsi dari tiga organel utama dalam sel hewan: mitokondria, retikulum, endoplasma, dan lisosom?"
+            android:layout_marginTop="1600dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Apa peran utama dari inti sel (nukleus) dalam struktur sel hewan?"
+            android:layout_marginTop="1700dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Bagaimana perbedaan antara ribosom yang terdapat  pada retikulum endoplasma kasar dan ribosom yang terdapat di sitosol?"
+            android:layout_marginTop="1760dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Apa yang dimaksud dengan sitoskeleton, dan apa peranannya dalam sel hewan?"
+            android:layout_marginTop="1870dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembelajaran online biologi interaktif"
+        android:textColor="@color/fontcolor"
+        android:fontFamily="@font/fontsatu"
+        android:textSize="25dp"
+        android:id="@+id/stext1"/>
+
+    <TextView
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/fontcolor"
+        android:fontFamily="@font/fontsatu"
+        android:textSize="25dp"
+        android:id="@+id/username"/>
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="55dp"
+        android:textSize="13sp"
+        android:hint="Masukan Username"
+        android:paddingLeft="15dp"
+        android:background="@drawable/satu"
+        android:height="48dp"/>
+
+    <TextView
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/fontcolor"
+        android:fontFamily="@font/fontsatu"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="120dp"
+        android:textSize="13sp"
+        android:hint="Masukan Password"
+        android:paddingLeft="15dp"
+        android:background="@drawable/satu"
+        android:height="48dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="550dp"
+        android:textColor="@color/fontcolor"
+        android:fontFamily="@font/fontdua"
+        android:backgroundTint="@color/bgtint"
+        android:textSize="20dp"
+        android:text="login" />
+
+
+</RelativeLayout>

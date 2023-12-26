@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".editprofile">
+
+    <ImageView
+        android:id="@+id/atas"
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:src="@drawable/kolomsatu" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/atas"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/walpaper" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:fontFamily="@font/fontempat"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="@color/fontcolor"
+        android:fontFamily="@font/fontempat"
+        android:textSize="17dp"
+        android:id="@+id/nama"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/fontcolor"
+        android:fontFamily="@font/fontempat"
+        android:textSize="17dp"
+        android:layout_below="@id/nama"/>
+
+
+    <EditText
+        android:id="@+id/kolom"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="380dp"
+        android:textSize="13sp"
+        android:hint="Masukan Nama"
+        android:paddingLeft="15dp"
+        android:background="@drawable/satu"
+        android:height="48dp"/>
+
+    <EditText
+        android:layout_below="@+id/kolom"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="30dp"
+        android:textSize="13sp"
+        android:hint="Masukan Email"
+        android:paddingLeft="15dp"
+        android:background="@drawable/satu"
+        android:height="48dp"/>
+
+    <Button
+        android:id="@+id/btnupdt"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:width="150dp"
+        android:backgroundTint="@color/bgtint"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/fonttiga"
+        android:text="Update Profile"
+        android:textColor="@color/fontcolor"
+        android:textSize="18dp" />
+
+</RelativeLayout>

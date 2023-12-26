@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".materiempat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kolomsatu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materi Pembelajaran"
+            android:fontFamily="@font/fontempat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/backbutton4"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Pengertian Sel Pada Tumbuhan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/kolom7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. fungsi dan Struktur Sel Tumbuhan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="360dp"
+            android:id="@+id/kolom8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Contoh soal-soal latihan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1760dp"
+            android:id="@+id/kolom9"/>
+
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sel tumbuhan adalah unit dasar kehidupan pada tanaman yang membangun struktur dan jaringan pada organisme tumbuhan. sel tumbuhan juga merupakan komponen dasar dari kehidupan organisme."
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:layout_marginTop="170dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:text="1. Inti sel (Nukleus)Bagian sel yang mengandung DNA yang mengatur aktivitas seluler, termasuk sintesis protein, pertumbuhan, dan reproduksi."
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:textSize="20dp"
+            android:layout_marginTop="430dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Ribosom Ribosom juga dinobatkan menjadi organel sel yang paling penting pada sel tumbuhan. Ribosom dan nukleus membutuhkan satu sama lain untuk melakukan instruksi genetik, yaitu pembentukan protein."
+            android:layout_marginTop="530dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Retikulum Endoplasma merupakan organel yang umumnya terletak di dekat nukleus. Terdapat dua jenis retikulum endoplasma (RE), yaitu RE kasar dan RE halus."
+            android:layout_marginTop="670dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="790dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:text="4. Vakuola Struktur besar yang terdapat di tengah-tengah sel tumbuhan dan berfungsi sebagai tempat penyimpanan air, nutrisi, pigmen, serta menjaga tekanan turgor yang penting untuk dukungan struktural."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="940dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:text="5. Badan Golgi memiliki fungsi utama dalam pengolahan protein yang baru disintesis dari retikulum endoplasma. Badan Golgi akan memotong protein berukuran besar menjadi protein-protein kecil.Badan Golgi juga memiliki fungsi menambahkan molekul glukosa ketika proses sintesis glikoprotein. Selain itu, badan Golgi mmemiliki fungsi untuk membuat organel baru, yaitu vakuola pada sel tumbuhan. "
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1200dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:text="6. Mitokondria merupakan organel sel yang memiliki peran dalam proses respirasi aerobik. Respirasi ini kemudian akan menghasilkan energi sehingga mitokondria juga berperan sebagai pembangkit energi di dalam sel tumbuhan."
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1350dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:text="7.  Kloroplas adalah bagian dari plastid yang mengandung klorofil. Di dalam kloroplas, berlangsung fase terang dan fase gelap dari fotosintesis tumbuhan. Kloroplas terdapat pada hampir seluruh tumbuhan, tetapi tidak umum dalam semua sel. Bila terdapat kloroplas, tiap sel dapat memiliki satu sampai banyak plastid"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="1560dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:text="8. Plasmodesmata merupakan organel yang terdapat pada dinding sel tumbuhan. Organel ini berupa suatu saluran terbuka pada dinding sel yang menjadi jalur komunikasi antar sel tumbuhan. "
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Sebutkan dan jelaskan fungsi utama dari dinding sel pada sel tumbuhan? "
+            android:layout_marginTop="1830dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Apa perbedaan utama antara membran sel (plasma membrane) dan dinding sel pada tumbuhan?"
+            android:layout_marginTop="1900dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Mengapa kloroplas disebut sebagai pabrik makanan sel tumbuhan? Berikan penjelasan lengkap?"
+            android:layout_marginTop="1990dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Apa yang membedakan inti sel (nukleus) pada sel tumbuhan dengan sel hewan?"
+            android:layout_marginTop="2070dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Jelaskan peran vakuola dalam sel tumbuhan dan bagaimana vakuola mendukung turgor pada sel tumbuhan?"
+            android:layout_marginTop="2150dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

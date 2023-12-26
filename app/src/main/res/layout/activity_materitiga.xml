@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".materitiga">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kolomsatu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materi Pembelajaran"
+            android:fontFamily="@font/fontempat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/backbutton3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Pengertian Sel Manusia"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/kolom4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. fungsi dan Struktur Sel Manusia"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="360dp"
+            android:id="@+id/kolom5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Contoh soal-soal latihan"
+            android:background="@color/bgbutton"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/fontdua"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1200dp"
+            android:id="@+id/kolom6"/>
+
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Struktur sel pada manusia merujuk pada organisasi internal sel-sel yang membentuk tubuh manusia. Setiap manusia terdiri dari triliunan sel yang berbeda-beda, tetapi semua sel memiliki struktur dasar yang serupa."
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:layout_marginTop="170dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:text="1. Membran Plasma Membran tipis yang melapisi sel dan bertindak sebagai penghalang selektif, mengatur aliran zat-zat masuk dan keluar dari sel."
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:textSize="20dp"
+            android:layout_marginTop="430dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Sitoplasma Cairan sel yang mengisi ruang di antara inti sel dan membran sel. Tempat terjadinya reaksi kimia seluler dan berbagai organel sel."
+            android:layout_marginTop="530dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Sitoskeleton Struktur internal yang memberikan bentuk, dukungan, dan memungkinkan gerekan seluler."
+            android:layout_marginTop="640dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:text="4. Retikulum Endoplasma Memiliki retikukulum endoplasma kasar (terdapat ribosom yang terikat) dan halus (tanpa ribosom terikat). Berperan dalam sintesis protein, lipid, dan detoksifikasi.
+"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Aparatus Golgi Memproses dan mengemas protein serta lipid untuk distribusi didalam atau diluar sel. "
+            android:layout_marginTop="800dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Lisosom Mengandung enzim pencernaan untuk pemecehan molekul makanan atau material seluler yang tidak diperlukan, serta berperan dalam daur ulang material seluler."
+            android:layout_marginTop="880dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Mitokondria Menghasilkan energi (ATP) melalui proses respirasi seluler."
+            android:layout_marginTop="1000dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Fungsi ribosom adalah sebagai salah satu tempat untuk melakukan sintesis protein atau pembentukan protein."
+            android:layout_marginTop="1060dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Apa yang dimaksud dengan membran sel (plasma membran) dan mengapa penting bagi sel manusia?"
+            android:layout_marginTop="1280dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Sebutkan dan jelaskan peran masing-masing dari tiga organel utama dalam sel manusia yaitu mitokondria, nukleus, dan retikulum endoplasma?"
+            android:layout_marginTop="1370dp"
+            android:background="@color/bgtint"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Apa fungsi utama sitoskeleton dalam sel manusia dan bagaimana struktur ini berkontribusi pada fungsi seluler?"
+            android:layout_marginTop="1450dp"
+            android:fontFamily="@font/fontdua"
+            android:background="@color/bgbutton"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Apa yang akan terjadi pada sel jika lisosom tidak berfungsi dengan baik?"
+            android:layout_marginTop="1530dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Mengapa nukleus disebut sebagai pusat kontrol sel?"
+            android:layout_marginTop="1590dp"
+            android:background="@color/bgbutton"
+            android:fontFamily="@font/fontdua"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

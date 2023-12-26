@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:layout_gravity="center_horizontal"
+       android:src="@drawable/logo" />
+
+   <TextView
+       android:layout_marginTop="30dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Pembelajaran online biologi interaktif"
+       android:fontFamily="@font/fontsatu"
+       android:textColor="@color/fontcolor"
+       android:textSize="25dp"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="30dp"
+       android:backgroundTint="@color/bgtint"
+       android:textColor="@color/fontcolor"
+       android:fontFamily="@font/fontdua"
+       android:textSize="20dp"
+       android:id="@+id/button1"
+       android:onClick="onLogin"
+       android:text="login" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="20dp"
+       android:textColor="@color/fontcolor"
+       android:fontFamily="@font/fontdua"
+       android:backgroundTint="@color/bgtint"
+       android:textSize="20dp"
+       android:id="@+id/button2"
+       android:onClick="onRegister"
+       android:text="sign up" />
+
+</LinearLayout>

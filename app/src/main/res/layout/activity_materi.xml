@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MateriActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="190dp"
+        android:src="@drawable/kolomdua"
+        android:id="@+id/atas2"
+        android:backgroundTint="@color/bgtint"/>
+
+    <TextView
+        android:id="@+id/textsatu"
+        android:layout_width="255dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/fontempat"
+        android:text="Welcome to Pembelajaran Biologi interaktif"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exploring the Essence of Life Biology"
+        android:fontFamily="@font/fontdua"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textsatu"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/btnprofile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/homeprofile"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambarsatu"
+        android:layout_below="@id/atas2"
+        android:backgroundTint="@color/bgtint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/gambar1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hewan"
+        android:layout_below="@id/atas2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/image1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Struktur Sel Pada Hewan"
+        android:fontFamily="@font/fontdua"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambarsatu"
+        android:backgroundTint="@color/bgtint"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gambar1"
+        android:layout_marginTop="30dp"
+        android:id="@+id/gambar2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/manusia"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:id="@+id/image2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Struktur Sel Pada Manusia"
+        android:fontFamily="@font/fontdua"
+        android:layout_below="@id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambarsatu"
+        android:backgroundTint="@color/bgtint"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gambar2"
+        android:layout_marginTop="30dp"
+        android:id="@+id/gambar3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tumbuhan"
+        android:layout_below="@id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:id="@+id/image3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Struktur Sel Pada Tumbuhan"
+        android:fontFamily="@font/fontdua"
+        android:layout_below="@id/image3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"/>
+    </RelativeLayout>
+
+</ScrollView>
